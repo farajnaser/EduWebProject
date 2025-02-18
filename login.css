@@ -47,7 +47,6 @@ input{
     outline: none;
     border-radius: 5px;
 }
-
 button{
     position: relative;
     width:60%;
@@ -77,6 +76,7 @@ button{
     color: white;
     font-family: 'Jost',sans-serif;
 }
+
 button:hover{
     background: #6d44b8;
 }
@@ -85,7 +85,7 @@ button:hover{
     height:460px;
     background: #eee;
     border-radius:60% / 10%;
-    transition:translateY(-180);
+    
     transition:.8s ease-in-out;
 }
 .login label{
