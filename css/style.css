@@ -44,17 +44,25 @@ section {
 }
 
 .heading {
+    position: relative;
     background: url(../images/heading-bg.png) no-repeat;
     background-size: cover;
+   height: 20rem;
     background-position: center;
 }
 
 .heading h3 {
+    position: absolute;
+    top: 6rem;
+    right: 3rem;
     font-size: 3.5rem;
     color: #302851;
 }
 
 .heading p {
+    position: absolute;
+    top: 12rem;
+    right: 3rem;
     font-size: 1.6rem;
     color: #666;
     padding-top: 0.5rem;
